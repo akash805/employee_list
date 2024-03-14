@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EmployeeList</string>
+    <string name="employee_list">Employee List</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="emp_id">Emp ID</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="notification">Notification</string>
+    <string name="search_contact">Search Contact</string>
+    <string name="back">back</string>
+</resources>
