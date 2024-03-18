@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:id="@+id/layout"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/contactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/name2"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="#484848"/>
+
+    <TextView
+        android:id="@+id/accountName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/emp_id2"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="#484848"/>
+
+    <TextView
+        android:id="@+id/emailContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/gender2"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="#484848"/>
+
+    <TextView
+        android:id="@+id/phoneContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/email2"
+        android:textSize="12sp"
+        android:textColor="#484848"/>
+
+    <TextView
+        android:id="@+id/DepartmentContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/phone2"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:textColor="#484848"/>
+
+    <TextView
+        android:id="@+id/shift_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/shift_time"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:textColor="#484848"/>
+
+    <TextView
+        android:id="@+id/hired_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/hired_time"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:textColor="#484848"/>
+
+    <TextView
+        android:id="@+id/actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/actions"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:textColor="#484848"/>
+
+
+
+
+</LinearLayout>

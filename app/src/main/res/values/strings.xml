@@ -7,6 +7,25 @@
     <string name="name">Name</string>
     <string name="gender">Gender</string>
     <string name="notification">Notification</string>
-    <string name="search_contact">Search Contact</string>
+    <string name="search_employee">Search Employee</string>
     <string name="back">back</string>
+    <string name="employees">Employees</string>
+    <string name="_50">50</string>
+    <string name="name2">Name</string>
+    <string name="emp_id2">Emp ID</string>
+    <string name="gender2">Gender</string>
+    <string name="email2">Email</string>
+    <string name="phone2">phone</string>
+    <string name="shift_time">Shift time</string>
+    <string name="hired_time">Hired Time</string>
+    <string name="actions">Actions</string>
+    <string name="employee_dashboard">Employee Dashboard</string>
+    <string name="high_performer_employee">High Performer Employee</string>
+    <string name="name3">Name</string>
+    <string name="total_task">Total Task</string>
+    <string name="complete_task">Complete Task</string>
+    <string name="task">Task</string>
+    <string name="id">ID</string>
+    <string name="inprocess">Inprocess</string>
+    <string name="all_employee">All Employee</string>
 </resources>
