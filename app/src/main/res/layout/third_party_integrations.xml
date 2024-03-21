@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/third_party_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/id2"
+            android:textColor="#484848"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/platform"
+            android:textColor="#484848"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/appid"
+            android:textColor="#484848"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/completeTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/ads_id"
+            android:textColor="#484848"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30sp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/update"
+            android:textColor="#484848"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
+            android:layout_width="288dp"
+            android:layout_height="447dp"
+            android:background="@drawable/third_party_shape" />
+
+        <TextView
+            android:id="@+id/secret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/add_app_secrets"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/secret"
+            android:background="@drawable/clear" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="288dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/secret"
+            android:layout_marginTop="15dp"
+            android:background="@color/gray3" />
+
+        <TextView
+            android:id="@+id/platform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/platform2"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/fb_insta"
+            android:layout_width="252dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/platform"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background_third_party"
+            android:hint="@string/facebook_instagram"
+            android:paddingStart="10dp"
+            android:textColorHint="@color/gray2"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/appId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fb_insta"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/app_id"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/appIdEdit"
+            android:layout_width="252dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/appId"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background_third_party"
+            android:hint="@string/appid2"
+            android:paddingStart="10dp"
+            android:textColorHint="@color/gray2"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/appSecret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appIdEdit"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/app_secret"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/appSecretEd"
+            android:layout_width="252dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/appSecret"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background_third_party"
+            android:hint="app secret"
+            android:paddingStart="10dp"
+            android:textColorHint="@color/gray2"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appSecretEd"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/token_or_url"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/token_url"
+            android:layout_width="252dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/url"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background_third_party"
+            android:hint=""
+            android:paddingStart="10dp"
+            android:textColorHint="@color/gray2"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/adsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/token_url"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/ads_id2"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/edAdsId"
+            android:layout_width="252dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/adsId"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background_third_party"
+            android:hint=""
+            android:paddingStart="10dp"
+            android:textColorHint="@color/gray2"
+            android:textSize="11sp" />
+
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="288dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/edAdsId"
+            android:layout_marginTop="15dp"
+            android:background="@color/gray3" />
+
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="52dp"
+            android:layout_height="27dp"
+            android:layout_below="@id/line2"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:text="@string/close"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+        <Button
+            android:layout_width="52dp"
+            android:layout_height="27dp"
+            android:layout_below="@id/line2"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/close"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/blue"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

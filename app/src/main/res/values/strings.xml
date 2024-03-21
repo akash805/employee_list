@@ -28,4 +28,20 @@
     <string name="id">ID</string>
     <string name="inprocess">Inprocess</string>
     <string name="all_employee">All Employee</string>
+    <string name="third_party_integrations">Third party Integrations</string>
+    <string name="platform">Platform</string>
+    <string name="appid">AppID</string>
+    <string name="ads_id">Ads ID</string>
+    <string name="update">Update</string>
+    <string name="id2">id</string>
+    <string name="add_app_secrets">Add App Secrets :</string>
+    <string name="platform2">Platform:</string>
+    <string name="facebook_instagram"><![CDATA[Facebook & Instagram]]></string>
+    <string name="app_id">App Id</string>
+    <string name="appid2">appId</string>
+    <string name="app_secret">App Secret</string>
+    <string name="token_or_url">Token OR Url</string>
+    <string name="ads_id2">Ads Id</string>
+    <string name="close">Close</string>
+    <string name="add">Add</string>
 </resources>
